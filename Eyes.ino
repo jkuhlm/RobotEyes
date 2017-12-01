@@ -75,7 +75,6 @@ void eyeGlow(uint8_t i) {
 
 }
 
-
 void comet (int i) {
     for ( int p = 0 ; p < PIXEL_COUNT ; p++ ) {
       strip.setPixelColor( p, 0 );  //  clear the strip
